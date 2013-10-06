@@ -21,6 +21,7 @@
 		F21FA82B1801432000B76637 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21FA80D1801432000B76637 /* UIKit.framework */; };
 		F21FA8331801432000B76637 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F21FA8311801432000B76637 /* InfoPlist.strings */; };
 		F21FA8351801432000B76637 /* Hello_WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F21FA8341801432000B76637 /* Hello_WorldTests.m */; };
+		F21FA849180146BB00B76637 /* View2.m in Sources */ = {isa = PBXBuildFile; fileRef = F21FA848180146BB00B76637 /* View2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		F21FA8301801432000B76637 /* Hello WorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hello WorldTests-Info.plist"; sourceTree = "<group>"; };
 		F21FA8321801432000B76637 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F21FA8341801432000B76637 /* Hello_WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello_WorldTests.m; sourceTree = "<group>"; };
+		F21FA847180146BB00B76637 /* View2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = View2.h; path = ../View2.h; sourceTree = "<group>"; };
+		F21FA848180146BB00B76637 /* View2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = View2.m; path = ../View2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				F21FA81B1801432000B76637 /* Main.storyboard */,
 				F21FA81E1801432000B76637 /* ViewController.h */,
 				F21FA81F1801432000B76637 /* ViewController.m */,
+				F21FA847180146BB00B76637 /* View2.h */,
+				F21FA848180146BB00B76637 /* View2.m */,
 				F21FA8211801432000B76637 /* Images.xcassets */,
 				F21FA8101801432000B76637 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 				F21FA8201801432000B76637 /* ViewController.m in Sources */,
 				F21FA81A1801432000B76637 /* AppDelegate.m in Sources */,
 				F21FA8161801432000B76637 /* main.m in Sources */,
+				F21FA849180146BB00B76637 /* View2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
